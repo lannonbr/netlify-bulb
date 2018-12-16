@@ -1,0 +1,28 @@
+{
+  "name": "netlify-bulb",
+  "version": "1.0.0",
+  "description": "Command line tool to inject lambda functions for netlify to change the color of LIFX lightbulbs when deploys pass or fail",
+  "main": "cmd.js",
+  "scripts": {},
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lannonbr/netlify-bulb.git"
+  },
+  "author": "Benjamin Lannon <benjamin@lannonbr.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lannonbr/netlify-bulb/issues"
+  },
+  "bin": {
+    "netlify-bulb": "./cmd.js"
+  },
+  "homepage": "https://github.com/lannonbr/netlify-bulb#readme",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "inquirer": "^6.2.1",
+    "netlify-lambda": "^1.1.1"
+  }
+}
