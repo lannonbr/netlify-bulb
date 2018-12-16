@@ -1,5 +1,7 @@
 # Netlify-bulb
 
+[![](https://img.shields.io/npm/v/netlify-bulb.svg)](https://www.npmjs.com/package/netlify-bulb)
+
 Command line tool to inject lambda functions for netlify to change the color of LIFX lightbulbs when deploys pass or fail
 
 ## Usage
@@ -15,3 +17,7 @@ Then, enter the directory of the project you wish to add the lambda functions an
 ```
 netlify-bulb
 ```
+
+# Notice
+
+This project is not an official Netlify product
